@@ -1,0 +1,20 @@
+{
+  "name": "Be gone, foul beast!",
+  "version": "1.12",
+  "homepage_url": "http://decromin.github.com/Muter/",
+  "update_url": "http://decromin.github.com/Muter/updates.xml",
+  "description": "Shut up, you dumb bastards.",
+  "icons": { "128": "images/facepalm.png" },
+  "permissions": [
+    "notifications",
+    "tabs",
+    "*://*.campfirenow.com/room/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.campfirenow.com/room/*"],
+      "css": ["muter.css"],
+      "js": ["jquery-1.7.1.min.js", "muter.js"]
+    }
+  ]
+}
