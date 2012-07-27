@@ -1,0 +1,5 @@
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+<app appid="hkiflgakcdlcfhjkhocgfijebdnfmija">
+<updatecheck codebase="http://decromin.github.com/Muter/SoundCamp-1.16.crx" version="1.16"/>
+</app>
+</gupdate>
